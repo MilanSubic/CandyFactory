@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="700.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <TableView fx:id="tableView" layoutX="39.0" layoutY="113.0" prefHeight="200.0" prefWidth="639.0">
+         <columns>
+            <TableColumn fx:id="naziv" prefWidth="188.0" text="Naziv" />
+            <TableColumn fx:id="tipSlatkisa" prefWidth="133.0" text="Tip" />
+            <TableColumn fx:id="okus" prefWidth="117.0" text="Okus" />
+            <TableColumn fx:id="boja" prefWidth="108.0" text="Boja" />
+            <TableColumn fx:id="kolicina" prefWidth="92.0" text="Količina" />
+         </columns>
+      </TableView>
+      <Label layoutX="246.0" layoutY="14.0" text="Rad sa distributerima">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="39.0" layoutY="68.0" text="Prikaz ponude distributera">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Button fx:id="naruciButton" layoutX="304.0" layoutY="428.0" mnemonicParsing="false" onAction="#handleNaruciButtonAction" prefHeight="35.0" prefWidth="92.0" text="Naruči" />
+      <Button fx:id="backButton" layoutX="586.0" layoutY="428.0" mnemonicParsing="false" onAction="#handleBackButtonAction" prefHeight="35.0" prefWidth="92.0" text="Nazad" />
+   </children>
+</AnchorPane>

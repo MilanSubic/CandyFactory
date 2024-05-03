@@ -1,0 +1,73 @@
+[ {
+  "id" : 6976480,
+  "naziv" : "Tech Innovations Inc.",
+  "adresa" : "123 Main Street, Suite 456, Anytown, USA",
+  "broj_telefona" : "(555) 555-1234",
+  "username" : "user1",
+  "password" : "user1",
+  "status" : "registrovan",
+  "obrisan" : false
+}, {
+  "id" : 473794,
+  "naziv" : "Bright Horizons Consulting",
+  "adresa" : "789 Elm Avenue, Suite 201, Metropolis, Canada",
+  "broj_telefona" : "(123) 456-7890",
+  "username" : "user2",
+  "password" : "user2",
+  "status" : "blokiran",
+  "obrisan" : false
+}, {
+  "id" : 4941754,
+  "naziv" : "GreenTech Solutions",
+  "adresa" : "456 Oak Street, Suite 789, Eco City, Australia",
+  "broj_telefona" : "(987) 654-3210",
+  "username" : "user3",
+  "password" : "user3",
+  "status" : "registrovan",
+  "obrisan" : false
+}, {
+  "id" : 9478072,
+  "naziv" : "Global Dynamics Inc.",
+  "adresa" : " 101 Plaza Drive, Suite 303, Metroville, USA",
+  "broj_telefona" : " (555) 123-4567",
+  "username" : "user4",
+  "password" : "user4",
+  "status" : "obrisan",
+  "obrisan" : false
+}, {
+  "id" : 6263611,
+  "naziv" : " Quantum Innovations Ltd.",
+  "adresa" : "999 Electron Avenue, Suite 101, Techtopia, United Kingdom",
+  "broj_telefona" : " (44) 20 1234 5678",
+  "username" : "user5",
+  "password" : "user5",
+  "status" : "blokiran",
+  "obrisan" : false
+}, {
+  "id" : 5011374,
+  "naziv" : "tt",
+  "adresa" : "tt",
+  "broj_telefona" : "tt",
+  "username" : "tt",
+  "password" : "tt",
+  "status" : "obrisan",
+  "obrisan" : false
+}, {
+  "id" : 9465737,
+  "naziv" : "zz",
+  "adresa" : "zz",
+  "broj_telefona" : "zz",
+  "username" : "zz",
+  "password" : "zz",
+  "status" : "obrisan",
+  "obrisan" : false
+}, {
+  "id" : 2433620,
+  "naziv" : "uuu",
+  "adresa" : "uuu",
+  "broj_telefona" : "uuu",
+  "username" : "uu",
+  "password" : "uu",
+  "status" : "registrovan",
+  "obrisan" : false
+} ]

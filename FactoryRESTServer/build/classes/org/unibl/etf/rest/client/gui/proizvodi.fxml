@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="930.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.unibl.etf.rest.client.gui.ProizvodiController">
+   <children>
+      <Label layoutX="358.0" layoutY="6.0" prefHeight="40.0" prefWidth="215.0" text="Rad sa proizvodima" textAlignment="CENTER">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Button fx:id="backButton" layoutX="808.0" layoutY="430.0" mnemonicParsing="false" onAction="#handleBackButtonAction" prefHeight="32.0" prefWidth="82.0" text="Nazad" />
+      <Button fx:id="deleteButton" layoutX="165.0" layoutY="445.0" mnemonicParsing="false" onAction="#handleDeleteButtonAction" prefHeight="25.0" prefWidth="61.0" text="Obriši" />
+      <Button fx:id="createButton" layoutX="14.0" layoutY="445.0" mnemonicParsing="false" onAction="#handleCreateButtonAction" prefHeight="25.0" prefWidth="61.0" text="Kreiraj" />
+      <TableView fx:id="tableView" layoutX="245.0" layoutY="69.0" prefHeight="259.0" prefWidth="668.0">
+        <columns>
+          <TableColumn fx:id="id" prefWidth="34.0" text="ID" />
+          <TableColumn fx:id="naziv" prefWidth="172.99996948242188" text="Naziv" />
+            <TableColumn fx:id="tipSlatkisa" prefWidth="139.66668701171875" text="Tip slatkiša" />
+            <TableColumn fx:id="boja" prefWidth="98.0" text="Boja" />
+            <TableColumn fx:id="okus" prefWidth="135.0" text="Okus" />
+            <TableColumn fx:id="kolicina" prefWidth="71.0" text="Količina" />
+        </columns>
+      </TableView>
+      <TextField fx:id="idTextField" layoutX="90.0" layoutY="82.0" />
+      <Label layoutX="19.0" layoutY="82.0" prefHeight="25.0" prefWidth="52.0" text="ID" />
+      <TextField fx:id="nazivTextField" layoutX="90.0" layoutY="125.0" />
+      <TextField fx:id="tipSlatkisaTextField" layoutX="90.0" layoutY="171.0" />
+      <Label layoutX="19.0" layoutY="125.0" prefHeight="25.0" prefWidth="52.0" text="Naziv" />
+      <Label layoutX="19.0" layoutY="171.0" prefHeight="25.0" prefWidth="62.0" text="Tip slatkiša" />
+      <Button fx:id="izmijeniButton" layoutX="90.0" layoutY="445.0" mnemonicParsing="false" onAction="#handleIzmijeniButtonAction" prefHeight="25.0" prefWidth="61.0" text="Izmjeni" />
+      <TextField fx:id="bojaTextField" layoutX="91.0" layoutY="219.0" />
+      <TextField fx:id="okusTextField" layoutX="91.0" layoutY="260.0" />
+      <Label layoutX="19.0" layoutY="219.0" prefHeight="25.0" prefWidth="62.0" text="Boja" />
+      <Label layoutX="19.0" layoutY="260.0" prefHeight="25.0" prefWidth="62.0" text="Okus" />
+      <Label layoutX="14.0" layoutY="298.0" prefHeight="25.0" prefWidth="62.0" text="Količina" />
+      <TextField fx:id="kolicinaTextField" layoutX="91.0" layoutY="298.0" />
+      <TextField fx:id="promocijaTextField" layoutX="537.0" layoutY="347.0" prefHeight="32.0" prefWidth="377.0" />
+      <Label layoutX="419.0" layoutY="347.0" prefHeight="32.0" prefWidth="92.0" text="Promotivni tekst" />
+      <Button fx:id="publishButton" layoutX="695.0" layoutY="387.0" mnemonicParsing="false" onAction="#handlePublishButtonAction" prefHeight="25.0" prefWidth="61.0" text="Objavi" />
+   </children>
+</AnchorPane>

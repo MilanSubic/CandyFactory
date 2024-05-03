@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/HP/Documents/lib/activation-1.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/HP/Documents/lib/amqp-client-4.1.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/HP/Documents/lib/aopalliance-repackaged-2.5.0-b42.jar"/>
+	<classpathentry kind="lib" path="C:/Users/HP/Documents/lib/axis.jar"/>
+	<classpathentry kind="lib" path="C:/Users/HP/Documents/lib/cdi-api-1.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/HP/Documents/lib/commons-discovery-0.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/HP/Documents/lib/commons-logging.jar"/>
+	<classpathentry kind="lib" path="C:/Users/HP/Documents/lib/commons-pool2-2.4.3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/HP/Documents/lib/el-api-2.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/HP/Documents/lib/hk2-api-2.5.0-b42.jar"/>
+	<classpathentry kind="lib" path="C:/Users/HP/Documents/lib/hk2-locator-2.5.0-b42.jar"/>
+	<classpathentry kind="lib" path="C:/Users/HP/Documents/lib/hk2-utils-2.5.0-b42.jar"/>
+	<classpathentry kind="lib" path="C:/Users/HP/Documents/lib/jackson-annotations-2.16.0-rc1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/HP/Documents/lib/jackson-core-2.16.0-rc1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/HP/Documents/lib/jackson-databind-2.16.0-rc1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/HP/Documents/lib/javassist-3.22.0-CR2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/HP/Documents/lib/javax.activation-api-1.2.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/HP/Documents/lib/javax.annotation-api-1.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/HP/Documents/lib/javax.inject-1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/HP/Documents/lib/javax.inject-2.5.0-b42.jar"/>
+	<classpathentry kind="lib" path="C:/Users/HP/Documents/lib/javax.json.bind-api-1.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/HP/Documents/lib/javax.json-1.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/HP/Documents/lib/javax.json-api-1.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/HP/Documents/lib/javax.mail.jar"/>
+	<classpathentry kind="lib" path="C:/Users/HP/Documents/lib/javax.servlet-api-3.0.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/HP/Documents/lib/javax.ws.rs-api-2.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/HP/Documents/lib/jaxb-api-2.2.7.jar"/>
+	<classpathentry kind="lib" path="C:/Users/HP/Documents/lib/jaxrpc.jar"/>
+	<classpathentry kind="lib" path="C:/Users/HP/Documents/lib/jboss-interceptors-api_1.1_spec-1.0.0.Beta1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/HP/Documents/lib/jedis-2.9.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/HP/Documents/lib/jersey-all-2.22.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/HP/Documents/lib/jersey-client.jar"/>
+	<classpathentry kind="lib" path="C:/Users/HP/Documents/lib/jersey-common.jar"/>
+	<classpathentry kind="lib" path="C:/Users/HP/Documents/lib/jersey-container-servlet.jar"/>
+	<classpathentry kind="lib" path="C:/Users/HP/Documents/lib/jersey-container-servlet-core.jar"/>
+	<classpathentry kind="lib" path="C:/Users/HP/Documents/lib/jersey-hk2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/HP/Documents/lib/jersey-media-jaxb.jar"/>
+	<classpathentry kind="lib" path="C:/Users/HP/Documents/lib/jersey-media-json-binding.jar"/>
+	<classpathentry kind="lib" path="C:/Users/HP/Documents/lib/jersey-media-sse.jar"/>
+	<classpathentry kind="lib" path="C:/Users/HP/Documents/lib/jersey-server.jar"/>
+	<classpathentry kind="lib" path="C:/Users/HP/Documents/lib/json-20180130.jar"/>
+	<classpathentry kind="lib" path="C:/Users/HP/Documents/lib/json-path-2.8.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/HP/Documents/lib/jsr250-api-1.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/HP/Documents/lib/org.osgi.core-4.2.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/HP/Documents/lib/osgi-resource-locator-1.0.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/HP/Documents/lib/persistence-api-1.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/HP/Documents/lib/saaj.jar"/>
+	<classpathentry kind="lib" path="C:/Users/HP/Documents/lib/slf4j-api-1.7.21.jar"/>
+	<classpathentry kind="lib" path="C:/Users/HP/Documents/lib/slf4j-simple-1.7.22.jar"/>
+	<classpathentry kind="lib" path="C:/Users/HP/Documents/lib/validation-api-1.1.0.Final.jar"/>
+	<classpathentry kind="lib" path="C:/Users/HP/Documents/lib/wsdl4j.jar"/>
+	<classpathentry kind="lib" path="C:/Users/HP/Documents/lib/yasson-1.0.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

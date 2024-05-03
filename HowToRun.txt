@@ -1,0 +1,8 @@
+1) FactoryRESTServer run on server 
+2) run redis and rabbitMQ servers
+3) in DistributerApp run RMI server - DistributerRMIServer.java
+4) in FactoryRESTServer run secure socket apps FabrikaLoginSocketServer.java and FabrikaOrderStatusSocketServer.java
+5) in FactoryRESTServer run FabrikaGUI.java - main Factory App
+6) in ClientApp run KorisnikGUI.java - one or multiple times
+7) in DistributerApp run DistributerGUI.java - one or multiple times
+8) in FactoryOrderApp run NarudzbeLoginGUI.java - one or multiple times

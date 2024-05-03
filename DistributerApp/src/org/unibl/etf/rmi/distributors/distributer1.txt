@@ -1,0 +1,7 @@
+naziv#tip#okus#boja#10
+naziv1#tip1#okus1#boja1#4
+tttt#rrrrrrrr#yyyyyyyy#uuuuuuuu#20
+iiiiiii#ooo#ppppp#kkkkk#30
+tttttt#uyyyyyyy#yyyyyyy#uuuuuu#20
+hjhbhbh#hbbhb#bhbhbhb#hbhbhbh#40
+tttttt#iiiiiiiiiii#ooooooooooo#gggggg#44
